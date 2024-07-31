@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--=============== BOXICONS ===============-->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title> Portfolio </title>
+</head>
+
+<body>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Khushi Deshwal</a>
+
+            <div class="nav__menu">
+                <ul class="nav__list">
+                    <li class="nav__item ">
+                        <a href="#home" class="nav__link">
+                            <i class='bx bx-home'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item ">
+                        <a href="#about" class="nav__link">
+                            <i class='bx bx-user'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class='bx bx-book'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#work" class="nav__link">
+                            <i class='bx bx-briefcase-alt-2'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class='bx bx-message-square-dots'></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!--=============== theme change button ===============-->
+            <i class='bx bx-moon change-theme change-theme-button' id="theme-button"></i>
+
+        </nav>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+        <!--=============== HOME ===============-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <span class="home__greeting">Hello, I'm</span>
+                    <h1 class="home__name">khushi Deshwal </h1>
+                    <h3 class="home__education">Frontend Developer</h3>
+
+                    <div class="home__button">
+                        <a download="" href="assets/img/Deshwal Resume.pdf" class="button button--ghost">
+                            Download CV
+                        </a>
+
+                        <a href="#about" class="button">About</a>
+                    </div>
+                </div>
+
+                <div class="home__handle">
+                    <img src="assets/img/Deshwalprofile.png" alt="" class="home__img">
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/khushi-deshwal-46522b239?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="home__social-link">
+                        <i class='bx bxl-linkedin'></i>
+                    </a>
+                    <a href="https://github.com/deshwal28" target="_blank" class="home__social-link">
+                        <i class='bx bxl-github'></i>
+                    </a>
+                    
+                </div>
+
+                <a href="#about" class="home__scroll">
+                    <i class='bx bx-mouse home__scroll-icon'></i>
+                    <span class="home__scroll-name">Scroll Down</span>
+                </a>
+            </div>
+        </section>
+
+        <!--=============== ABOUT ===============-->
+        <section class="about section" id="about">
+            <span class="section__subtitle">MY INTRO</span>
+            <h2 class="section__title">About Me</h2>
+
+            <div class="about__container container grid">
+                <img src="https://img.freepik.com/free-photo/funny-3d-asian-teenager_183364-80432.jpg?w=900&t=st=1706033813~exp=1706034413~hmac=348632ab5b69d00b279aad6eb6813351d66fecd9d16f7955054a54c731964c9f" alt="" class="about__img" width="100%" height="100%">
+
+                <div class="about__data">
+                    <div class="about__info">
+                       
+                        <div class="about__box">
+                            <i class='bx bx-user about__icon'></i>
+                            <h3 class="about__title">Fresher</h3>
+                            <span class="about__subtitle">Available For Internship</span>
+                        </div>
+                        <div class="about__box">
+                            <i class='bx bx-briefcase-alt about__icon'></i>
+                            <h3 class="about__title">Completed</h3>
+                            <span class="about__subtitle">Multiple Projects</span>
+                        </div>
+                    </div>
+
+                    <p class="about__description">
+                        I am Khushi Deshwal, a 4th-year student pursuing a Bachelor's degree in Technology at Galgotias College of Engineering and Technology. Specializing in graphic design and front-end development, I am passionate about creating visually stunning designs and intuitive user interfaces. With expertise in HTML, CSS, JavaScript, and design tools, I thrive on translating ideas into engaging digital experiences. As a dedicated learner and creative problem-solver.
+            
+                    </p>
+
+                    <a href="#contact" class="button about__button-contact">Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+        <!--=============== SKILLS ===============-->
+        <section class="skills section" id="skills">
+
+            <h2 class="section__title">My Abilities</h2>
+
+            <div class="skills__container container grid">
+                <div class="skills__content">
+                    <h3 class="skills__title">Frontend Development</h3>
+
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">HTML</h3>
+                                    
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">CSS</h3>
+                                    
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Javascript</h3>
+                                   
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Figma</h3>
+                            
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Git</h3>
+                                
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">React</h3>
+                    
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills__content">
+                    <h3 class="skills__title">Backend Development</h3>
+
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Node JS</h3>
+                                    
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Python</h3>
+                                   
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">MySQL</h3>
+                                    
+                                </div>
+                            </div>
+
+                        </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <!--=============== EDUCATION ===============-->
+        <section class="education section">
+            
+            <h2 class="education__title">EDUCATION</h2>
+
+            <div class="education__container container grid">
+                <div class="education__card">
+                    <div class="edu">
+                        <h3 class="education__title">HIGH SCHOOL</h3>
+
+                        <span class="education__button">
+                            See More <i class='bx bx-right-arrow services__icon'></i>
+                        </span>
+                    </div>
+
+
+                    <div class="education__modal">
+                        <div class="education__modal-content">
+                            <i class='bx bx-x education__modal-close'></i>
+
+                            <h3 class="education__modal-title">HIGH SCHOOL</h3>
+
+                            <p class="education__modal-description">
+                                School: Kanya Gurukul senior sec. school Khanpur kalan,Sonipat (Haryana) 
+                               
+                            </p>
+
+                            <ul class="education__modal-list">
+                                <li class="education__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="education__modal-info">
+                                        Year: 2019
+                                    </p>
+                                </li>
+
+                                <li class="education__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="education__modal-info">
+                                        Percentage: 87.6
+                                    </p>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="education__card">
+                    <h3 class="education__title">INTERMEDIATE</h3>
+
+                    <span class="education__button">
+                        See More <i class='bx bx-right-arrow services__icon'></i>
+                    </span>
+
+                    <div class="education__modal">
+                        <div class="education__modal-content">
+                            <i class='bx bx-x education__modal-close'></i>
+
+                            <h3 class="education__modal-title">INTERMEDIATE</h3>
+
+                            <p class="education__modal-description">
+                                School: Kanya Gurukul senior sec. school khanpur kalan ,Sonipat (Haryana)
+                            </p>
+
+                            <ul class="education__modal-list">
+                                <li class="education__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="education__modal-info">
+                                        Year: 2021
+                                    </p>
+                                </li>
+
+                                <li class="education__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="education__modal-info">
+                                        Percentage: 94
+                                    </p>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="education__card">
+                    <h3 class="education__title">GRADUATION</h3>
+                    <h6 class="education__subtitle">B.TECH</h6>
+
+                    <span class="education__button">
+                        See More <i class='bx bx-right-arrow services__icon'></i>
+                    </span>
+
+                    <div class="education__modal">
+                        <div class="education__modal-content">
+                            <i class='bx bx-x education__modal-close'></i>
+
+                            <h3 class="education__modal-title">GRADUATION</h3>
+
+                            <p class="education__modal-description">
+                                Recent 4 year student with technical and problem-solving skills. Detail
+                                oriented and able to learn new concepts quickly
+                            </p>
+
+                            <ul class="education__modal-list">
+                                <li class="education__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="education__modal-info">
+                                        B.Tech: Artificial Intelligence And Data Science
+                                        Galgotias College Of Engineering And Technology Greater Noida
+                                    </p>
+                                </li>
+
+                                <li class="education__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="education__modal-info">
+                                        Year:2021-2015
+                                    </p>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--=============== WORK ===============-->
+        <section class="work section" id="work">
+            <h2 class="section__title">My Projects</h2>
+
+            <div class="work__container container grid">
+                <div class="work__card mix web">
+                    <img src="assets/img/netflixclone.png" alt="" class="work__img">
+
+                    <h3 class="work__title">Netflix Clone</h3>
+
+                    <a href="https://github.com/deshwal28/Netflix-clone-" class="work__button">
+                        Code <i class='bx bx-right-arrow work__icon'></i>
+                    </a>
+                </div>
+
+                <div class="work__card mix movil">
+                    <img src="assets/img/Landingpage.png" alt="" class="work__img">
+
+                    <h3 class="work__title">Landing Page</h3>
+
+                    <a href="https://github.com/deshwal28/landing-page" class="work__button">
+                        Code <i class='bx bx-right-arrow work__icon'></i>
+                    </a>
+                </div>
+
+                <div class="work__card mix design">
+                    <img src="assets/img/Food order website with Chatbot.png" alt="" class="work__img">
+
+                    <h3 class="work__title">Website with Chatbot</h3>
+
+                    <a href="https://github.com/deshwal28/Food-website-with-chatbot-" class="work__button">
+                        Code <i class='bx bx-right-arrow work__icon'></i>
+                    </a>
+                </div>
+
+                <div class="work__card mix web">
+                    <img src="assets/img/Tic-Tac-Toe.png" alt="" class="work__img">
+
+                    <h3 class="work__title">Tic-Tac-Toe</h3>
+
+                    <a href="https://github.com/deshwal28/TIC-TAC-TOE-web-application" class="work__button">
+                        Code <i class='bx bx-right-arrow work__icon'></i>
+                    </a>
+                </div>
+
+                <div class="work__card mix movil">
+                    <img src="assets/img/Stop watch.png" alt="" class="work__img">
+
+                    <h3 class="work__title">Stop watch</h3>
+
+                    <a href="https://github.com/deshwal28/stopwatch-web-application" class="work__button">
+                        Code <i class='bx bx-right-arrow work__icon'></i>
+                    </a>
+                </div>
+                <div class="work__card mix web">
+                    <img src="assets/img/weather application.png" alt="" class="work__img">
+
+                    <h3 class="work__title">Weather Application</h3>
+
+                    <a href="https://github.com/deshwal28/weather-application" class="work__button">
+                        Code <i class='bx bx-right-arrow work__icon'></i>
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+    
+
+        <!--=============== CONTACT ===============-->
+        <section class="contact section" id="contact">
+            <sapn class="section__subtitle">Get in touch</sapn>
+            <h3 class="section__title">Contact Me</h3>
+
+            <div class="contact__container container grid">
+                <div class="contact__content">
+                    <h3 class="contact__title contact__title-info">Talk to me</h3>
+
+                    <div class="contact__info">
+                        <div class="contact__card">
+                            <i class='bx bx-mail-send contact__card-icon'></i>
+                            <h3 class="contact__card-title">Email</h3>
+                            <span class="contact__card-data">khushdeshwal28@gmail.com</span>
+
+                            <a href="mailto:example@domain.com" target="_blank" class="contact__button">
+                                 <i class='bx bx-right-arrow contact__button-icon'></i>
+                            </a>
+                        </div>
+
+                        <div class="contact__card">
+                            <i class='bx bxl-instagram contact__card-icon'></i>
+                            <h3 class="contact__card-title">Instagram</h3>
+                            <span class="contact__card-data">codecraftai_hub</span>
+
+                            <a href="https://www.instagram.com/codecraftai_hub?utm_source=qr&igsh=bWZ1MWN4bWU1eHg5" target="_blank"
+                                class="contact__button">
+                                <i class='bx bx-right-arrow contact__button-icon'></i>
+                            </a>
+                        </div>
+
+                        <div class="contact__card">
+                            <i class='bx bxl-twitter contact__card-icon'></i>
+                            <h3 class="contact__card-title">Twitter</h3>
+                            <span class="contact__card-data">@CodeCraft28</span>
+
+                            <a href="https://x.com/CodeCraft28?t=etxwfwJljCDkt-oMJ2-GxA&s=09" target="_blank" class="contact__button">
+                            <i class='bx bx-right-arrow contact__button-icon'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact__content">
+                    <h3 class="contact__title contact__title-form">Write Me your Message</h3>
+
+                    <form action="" class="contact__form">
+                        <div class="contact__form-div">
+                            <label for="" class="contact__form-tag">Name</label>
+                            <input type="text" placeholder="Enter name" class="contact__form-input">
+                        </div>
+
+                        <div class="contact__form-div">
+                            <label for="" class="contact__form-tag">Mail</label>
+                            <input type="text" placeholder="Enter email" class="contact__form-input">
+                        </div>
+
+                        <div class="contact__form-div contact__form-area">
+                            <label for="" class="contact__form-tag">Message</label>
+                            <textarea name="" id="" cols="30" rows="10" placeholder="Write your Message"
+                                class="contact__form-input "></textarea>
+                        </div>
+
+
+                        <button class="button">
+                            Send Message
+                        </button>
+                    </form>
+
+                </div>
+
+        </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer">
+        <div class="footer__container container">
+            <h1 class="footer__title">Deshwal</h1>
+
+            <ul class="footer__list">
+
+                <li class="footer__item">
+                    <a href="#" class="footer__link">Home</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#about" class="footer__link">About</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#skills" class="footer__link">Skills</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#work" class="footer__link">Projects</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#contact" class="footer__link">Contact</a>
+                </li>
+            </ul>
+
+            <ul class="footer__social">
+                <li class="footer__social-item">
+                    <a href="https://www.facebook.com/profile.php?id=61555400701773&mibextid=ZbWKwL" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-facebook footer__social-icon'></i>
+                    </a>
+                </li>
+                <li class="footer__social-item">
+                    <a href="https://x.com/CodeCraft28?t=etxwfwJljCDkt-oMJ2-GxA&s=09" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-twitter footer__social-icon'></i>
+                    </a>
+                </li>
+                <li class="footer__social-item">
+                    <a href="https://www.linkedin.com/in/khushi-deshwal-46522b239?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-linkedin footer__social-icon'></i>
+                    </a>
+                </li>
+                <li class="footer__social-item">
+                    <a href="https://www.instagram.com/codecraftai_hub?igsh=bWZ1MWN4bWU1eHg5" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-instagram footer__social-icon'></i>
+                    </a>
+                </li>
+            </ul>
+
+            <span class="footer__copy">
+                &#169; 2024. All rights reserved.
+            </span>
+        </div>
+    </footer>
+
+    <!--=============== SCROLLREVEAL ===============-->
+
+    <!-- <script src="assets/js/scrollreveal.min.js"></script> -->
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MIXITUP FILTER ===============-->
+    <script src="assets/js/mixitup.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
